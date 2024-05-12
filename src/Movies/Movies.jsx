@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Movie from "./Movie";
 
 const Movies = () => {
@@ -37,7 +37,6 @@ const Movies = () => {
     movie.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-
   return (
     <div>
       <form onSubmit={handleSubmit}>
@@ -58,8 +57,8 @@ const Movies = () => {
             year={movie.year}
             genre={movie.genre}
             description={movie.description}
+            img={movie.img}
           />
-          
         ))
       ) : (
         <p>No result found</p>

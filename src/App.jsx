@@ -3,6 +3,7 @@ import { Layout } from "./Layout/Layout";
 import Movies from "./Movies/Movies";
 import NotFound from "./NotFound/NotFound";
 import MovieDetails from "./MovieDetails/MovieDetails";
+import Wishlist from "./Wishlist/Wishlist";
 
 function App() {
   return (
@@ -27,6 +28,15 @@ function App() {
           />
           <Route />
         </Route>
+        <Route
+          path="/wishlist"
+          element={
+            <Layout>
+              <Wishlist />
+            </Layout>
+          }
+        />
+
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

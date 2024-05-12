@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Greyhound",
       "year": "2020",
-      "img": "placeholder.jpg",
+      "img": "./src/assets/page-not-found.svg",
       "genre": "drama",
       "description": "Le lorem ipsum est, en imprimerie…… "
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "title": "Green Book",
       "year": "2018",
-      "img": "placeholder.jpg",
+      "img": "./src/assets/page-not-found.svg",
       "genre": "comedy",
       "description": "Le lorem ipsum est, en imprimerie……."
     }
