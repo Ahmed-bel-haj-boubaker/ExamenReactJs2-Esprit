@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Card, Button, Form } from "react-bootstrap";
-import notFoundSVG from "../assets/page-not-found.svg";
+
 import "./movie.css";
 import { useDispatch } from "react-redux";
 import { addToWishList } from "../../redux/slice";
